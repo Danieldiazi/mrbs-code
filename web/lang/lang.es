@@ -691,4 +691,45 @@ $vocab["browser_not_supported"] = "Desafortunadamente su navegador no está sopo
                                   "versión más actual, o bien usar un navegador diferente.";
 $vocab["back"]               = "Atrás";
 
-
+// Added to keep the Spanish translation in sync with lang.en
+$vocab["multiroom_not_allowed"]    = "No tienes permiso para realizar una reserva para varias salas.";
+$vocab["confirmdel_series"]        = "¿Seguro que quieres eliminar esta serie?";
+$vocab["max_create_time_before_type"] = 'No puedes crear una reserva de tipo %3$s que termine dentro de más de %1$d %2$s';
+$vocab["max_create_time_before_start_type"] = 'No puedes crear una reserva de tipo %3$s que comience dentro de más de %1$d %2$s';
+$vocab["booking_opens_at"]         = "Las reservas se abren a las %s cada día";
+$vocab["max_booking_duration_type"] = 'La duración máxima de una reserva de tipo %3$s es de %1$d %2$s';
+$vocab["enter"]                    = "Entrar";
+$vocab["exit"]                     = "Salir";
+$vocab["enter_kiosk_intro"]        = "Establece una contraseña que será necesaria para salir del modo quiosco.";
+$vocab["exit_kiosk_intro"]         = "Introduce la contraseña que estableciste al entrar en el modo quiosco.";
+$vocab["enter_kiosk_mode"]         = "Entrar en el modo quiosco";
+$vocab["exit_kiosk_mode"]          = "Salir del modo quiosco";
+$vocab["kiosk"]                    = "Quiosco";
+$vocab["kiosk_password"]           = "Contraseña del quiosco";
+$vocab["password_not_unique"]      = "Otro usuario con la misma dirección de correo electrónico ya está usando esa contraseña.";
+$vocab["select_note"]              = "Usa Control-clic para seleccionar o deseleccionar una opción";
+$vocab["use_period_times"]         = "Establecer las horas de los períodos";
+$vocab["invalid_period_start_time"] = 'La hora de inicio \'%1$s\' del período \'%2$s\' no es válida.';
+$vocab["invalid_period_end_time"]   = 'La hora de finalización \'%1$s\' del período \'%2$s\' no es válida.';
+$vocab["invalid_period_time"]       = "El período '%s' tiene una hora de inicio o finalización no válida.";
+$vocab["period_start_before_last_end"] = "El inicio del período '%s' es anterior al final del período anterior.";
+$vocab["period_must_have_positive_duration"] = "El período '%s' debe tener una duración positiva.";
+$vocab["period_start_before_previous_end"] = "La hora de inicio no puede ser anterior a la hora de finalización del período anterior.";
+$vocab["period_end_must_be_after_start"] = "La hora de finalización del período debe ser posterior a la hora de inicio.";
+$vocab["email_not_unique"]         = "Ya existe otro usuario con esta dirección de correo electrónico.";
+$vocab["invalid_date"]             = "El campo '%s' debe contener una fecha válida con el formato AAAA-MM-DD.";
+$vocab["confirm_delete_user_plus"] = "¿Seguro que quieres eliminar este usuario? Participa en reservas como " .
+                                     "creador, modificador o solicitante, y al eliminarlo se perderá información " .
+                                     "como su nombre para mostrar y su dirección de correo electrónico.";
+$vocab["file"]                     = "Archivo";
+$vocab["derive_creator_from"]      = "Obtener el creador de";
+$vocab["organizer_email_address"]  = "Dirección de correo electrónico de ORGANIZER";
+$vocab["organizer_mrbs_username"]  = "Nombre de usuario de MRBS de ORGANIZER";
+$vocab["import_no_SUMMARY"]        = "Evento importado: no hay ningún SUMMARY disponible";
+$vocab["invalid_RFC5545_day"]      = "Día no válido: '%s'";
+$vocab["bad_timezone"]             = "Zona horaria desconocida o no válida: '%s'";
+$vocab["event_created_from_periods"] = "El evento se exportó desde un área que utiliza períodos.";
+$vocab["range_separator"]          = " - ";
+$vocab["year_range_separator"]     = "/";
+$vocab["date_time_separator"]      = ", ";
+$vocab["copy"]                     = "Copiar";
